@@ -23,7 +23,7 @@ public class Main {
         JsonObject envio = new JsonObject();
         envio.addProperty("nombre", "Isaac Flores");
         envio.addProperty("carnet", "0905-22-6380");
-        envio.addProperty("seccion", "A");
+        envio.addProperty("seccion", "B");
 
         JsonObject resultadoBusqueda = new JsonObject();
         resultadoBusqueda.addProperty("totalProcesos", r.total);
